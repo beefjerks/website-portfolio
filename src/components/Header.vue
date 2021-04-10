@@ -1,0 +1,25 @@
+<template>
+  <v-toolbar app >
+    <router-link class="black--text px-15 text-decoration-none" to="/">Home</router-link> 
+    <router-link class="black--text px-15 text-decoration-none" to="/about">About</router-link> 
+    <router-link class="black--text px-15 text-decoration-none" to="/Gallery">Gallery</router-link>
+    <router-link class="black--text px-15 text-decoration-none" to="/Contact">Contact</router-link>
+
+  </v-toolbar>
+  
+</template>
+
+<script>
+  export default {
+    name: 'Header',
+
+    data: () => ({
+      
+    }),
+  }
+</script>
+
+<style lang="scss">
+
+
+</style>
