@@ -22,6 +22,14 @@
     background-color: var(--v-primary-base);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: Active, sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+  font-family: 'filson-pro';
+}
 
 
 </style>
