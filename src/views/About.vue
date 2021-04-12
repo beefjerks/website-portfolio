@@ -1,5 +1,6 @@
 <template>
-  <div class="wrapper-1">
+<div class="wrapper">
+  <section>
     <div class="img-container">
       <img src="" alt="placeholder">
     </div>
@@ -7,13 +8,26 @@
       <h1>This is a about page</h1>
       
     </div>
-  </div>
+  </section>
+
+  <section>
+    <div class="img-container">
+      <img src="" alt="placeholder">
+    </div>
+    <div class="about">
+      <h1>This is a about page</h1>
+      
+    </div>
+  </section>
+
+</div>
+  
   
 </template>
 
 <style lang="scss" scoped>
 
-.wrapper-1 {
+section {
   width: calc(100% - 70px * 2);
   height: 80vh;
   background-color: #FDF8F5;
@@ -21,7 +35,7 @@
   display: flex;
 }
 
-.wrapper-1 .img-container {
+section > div {
   width: 50%;
   
 
