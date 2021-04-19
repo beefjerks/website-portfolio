@@ -44,7 +44,7 @@ section > div {
 }
 
 section .about {
-  margin: 70px;
+  padding: 70px;
 }
 
 

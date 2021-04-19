@@ -5,7 +5,7 @@
       <img src="" alt="placeholder">
     </div>
     <div class="contact">
-      <h1>This is a contact page</h1>
+      <h1>Contact me</h1>
       
     </div>
     </section>
@@ -43,7 +43,7 @@ section > div {
 }
 
 section .contact {
-  margin: 70px;
+  padding: 70px;
 }
 
 
