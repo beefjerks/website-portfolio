@@ -6,6 +6,9 @@
     </div>
     <div class="about">
       <h1>Hello there!</h1>
+      <p>I'm Karin Kohlmetz</p>
+      <p>A passionate and fun-loving Multimedia Designer and digital artist.</p>
+      
     </div>
   </section>
 
@@ -15,7 +18,6 @@
     </div>
     <div class="about">
       <h1>About</h1>
-      
     </div>
   </section>
 
@@ -37,8 +39,15 @@ section {
 section > div {
   width: 50%;
   
+  
 
 }
+
+section .about {
+  margin: 70px;
+}
+
+
 
 
 </style>

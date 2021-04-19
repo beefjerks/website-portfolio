@@ -34,12 +34,20 @@ section {
   height: 80vh;
   background-color: #FDF8F5;
   display: flex;
+  
 } 
 
 section > div {
   width: 50%;
   
 
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 

@@ -27,8 +27,13 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
+h1 {
+  font-size: 50px;
+}
+
 p {
   font-family: 'filson-pro';
+  font-size: 20px;
 }
 
 

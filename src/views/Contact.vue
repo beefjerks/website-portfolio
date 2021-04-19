@@ -4,8 +4,8 @@
     <div class="img-container">
       <img src="" alt="placeholder">
     </div>
-    <div class="home">
-      <h1>This is a home page</h1>
+    <div class="contact">
+      <h1>This is a contact page</h1>
       
     </div>
     </section>
@@ -40,6 +40,10 @@ section > div {
   width: 50%;
   
 
+}
+
+section .contact {
+  margin: 70px;
 }
 
 
