@@ -9,6 +9,21 @@
   
 </template>
 
+
+
+<style lang="scss">
+
+#nav {
+  display: flex;
+  justify-content: center;
+  font-family: filson-pro, sans-serif;
+
+
+}
+
+
+</style>
+
 <script>
   export default {
     name: 'Header',
@@ -18,17 +33,3 @@
     }),
   }
 </script>
-
-<style lang="scss">
-
-#nav {
-  display: flex;
-  justify-content: center;
-  font-family: filson-pro, sans-serif;
-
-  
-  
-}
-
-
-</style>

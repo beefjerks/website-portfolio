@@ -5,8 +5,7 @@
       <img src="" alt="placeholder">
     </div>
     <div class="about">
-      <h1>This is a about page</h1>
-      
+      <h1>Hello there!</h1>
     </div>
   </section>
 
@@ -15,7 +14,7 @@
       <img src="" alt="placeholder">
     </div>
     <div class="about">
-      <h1>This is a about page</h1>
+      <h1>About</h1>
       
     </div>
   </section>

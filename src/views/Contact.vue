@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper">
+    <section>
     <div class="img-container">
       <img src="" alt="placeholder">
     </div>
@@ -7,6 +8,7 @@
       <h1>This is a home page</h1>
       
     </div>
+    </section>
   </div>
   
 </template>
@@ -22,6 +24,19 @@
 }
 
 .wrapper .img-container {
+  width: 50%;
+  
+
+}
+
+section {
+  width: calc(100%);
+  height: 80vh;
+  background-color: #FDF8F5;
+  display: flex;
+} 
+
+section > div {
   width: 50%;
   
 
