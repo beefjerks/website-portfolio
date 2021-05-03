@@ -1,10 +1,45 @@
 <template>
   <div class="wrapper">
-    <div class="home">
-      <h1>This is a gallery page</h1>
-    </div>
     
-    
+  
+<v-container >
+   
+    <!-- Columns start at 100% wide on mobile and bump up to 33.3% wide on desktop -->
+    <v-row>
+      <v-col  cols="12" md="4" >
+        <v-card class="pa-4" tile>
+          project
+        </v-card>
+      </v-col>
+      
+      <v-col  cols="12" md="4" >
+        <v-card class="pa-4" tile>
+          project
+        </v-card>
+      </v-col>
+
+      <v-col  cols="12" md="4" >
+        <v-card class="pa-4" tile>
+          project
+        </v-card>
+      </v-col>
+
+      <v-col  cols="12" md="4" >
+        <v-card class="pa-4" tile>
+          project
+        </v-card>
+      </v-col>
+
+      <v-col  cols="12" md="4" >
+        <v-card class="pa-4" tile>
+          project
+        </v-card>
+      </v-col>
+    </v-row>
+
+   
+  </v-container>
+
   </div>
   
 </template>

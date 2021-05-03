@@ -3,22 +3,13 @@
     <v-container>
       <v-row>
         <v-col cols="12" sm="12" md="6" >
-
-          <img src="" alt="placeholder">
+          <img src="@/assets/picklemen.png" alt="">
         </v-col>
-        <v-col cols="12" sm="12" md="6" >
 
+        <v-col cols="12" sm="12" md="6" >
           <h1>Karin Kohlmetz</h1>
         </v-col>
       </v-row>
-
-  <!--   <div class="img-container">
-      <img src="" alt="placeholder">
-    </div>
-
-    <div class="home">
-      <h1>Karin Kohlmetz</h1>
-    </div> -->
 
     </v-container>
 
