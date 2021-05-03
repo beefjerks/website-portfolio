@@ -13,7 +13,7 @@
 
 .wrapper {
   height: 80vh;
-  background-color: #FDF8F5;
+  background-color: var(--v-secondary-base);
   margin: 70px;
   
 }

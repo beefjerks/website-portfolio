@@ -1,13 +1,26 @@
 <template>
   <div class="wrapper">
-    <section>
-    <div class="img-container">
+    <v-container>
+      <v-row>
+        <v-col cols="12" sm="12" md="6" >
+
+          <img src="" alt="placeholder">
+        </v-col>
+        <v-col cols="12" sm="12" md="6" >
+
+          <h1>Karin Kohlmetz</h1>
+        </v-col>
+      </v-row>
+
+  <!--   <div class="img-container">
       <img src="" alt="placeholder">
     </div>
+
     <div class="home">
       <h1>Karin Kohlmetz</h1>
-    </div>
-    </section>
+    </div> -->
+
+    </v-container>
 
   </div>
   
@@ -18,26 +31,26 @@
 .wrapper {
   width: calc(100% - 70px * 2);
   height: 80vh;
-  background-color: #FDF8F5;
+  background-color: var(--v-secondary-base);
   margin: 70px;
   display: flex;
 }
 
-.wrapper .img-container {
+/* .wrapper .img-container {
   width: 50%;
   
 
-}
+} */
 
-section {
+/* section {
   width: calc(100%);
   height: 80vh;
   background-color: #FDF8F5;
   display: flex;
   
-} 
+}  */
 
-section > div {
+/* section > div {
   width: 50%;
   
 
@@ -48,7 +61,7 @@ section > div {
   justify-content: center;
   align-items: center;
   
-}
+} */
 
 
 
