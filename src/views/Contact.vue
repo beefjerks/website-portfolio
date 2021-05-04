@@ -1,14 +1,17 @@
 <template>
   <div class="wrapper">
-    <v-container>
+    <v-container fluid ma-0 pa-0 fill-height>
       <v-row>
-        <v-col cols="12" sm="12" md="6" >
-        <img src="" alt="placeholder">
-        </v-col>
-
-        <v-col cols="12" sm="12" md="6" >
+        <v-col class="text" cols="12" sm="12" md="6" >
         <h1>Contact me</h1>
         </v-col>
+
+
+        <v-col class="img" cols="12" sm="12" md="6" >
+        <img src="@/assets/PlaceHolderPickles.png" alt="placeholder">
+        </v-col>
+
+        
       </v-row>
     </v-container>
   </div>
@@ -23,6 +26,18 @@
   background-color: var(--v-secondary-base);
   margin: 70px;
   display: flex;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* .wrapper .img-container {
