@@ -19,6 +19,7 @@
 
 <style lang="scss" scoped>
 
+
 .img {
   display: flex;
   justify-content: center;

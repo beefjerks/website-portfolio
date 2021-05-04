@@ -1,30 +1,34 @@
 <template>
 <div>
   <div class="wrapper">
-    <v-container>
+    <v-container fluid ma-0 pa-0 fill-height>
       <v-row>
-        <v-col cols="12" sm="12" md="6" >
-        <img src="" alt="placeholder">
+        <v-col class="img" cols="12" sm="12" md="6" >
+        <img src="@/assets/PlaceHolderPickles.png" alt="placeholder">
         </v-col>
       
-        <v-col cols="12" sm="12" md="6" >  
-        <h1>Hello there!</h1>
-        <p>I'm Karin Kohlmetz, a passionate and fun-loving Multimedia Designer and digital artist.</p>
+        <v-col class="text" cols="12" sm="12" md="6" > 
+          <div>
+            <h1>Hello there!</h1>
+            <p>I'm Karin Kohlmetz, a passionate and fun-loving Multimedia Designer and digital artist.</p>
+          </div> 
         </v-col>
       </v-row>  
     </v-container>  
   </div>
   
   <div class="wrapper">
-    <v-container>
+    <v-container fluid ma-0 pa-0 fill-height>
       <v-row>
-        <v-col cols="12" sm="12" md="6" >
-        <img src="" alt="placeholder">
+        <v-col class="text" cols="12" sm="12" md="6" >  
+          <div>
+            <h1>Hello there!</h1>
+            <p>I'm Karin Kohlmetz, a passionate and fun-loving Multimedia Designer and digital artist.</p>
+        </div>
         </v-col>
-      
-        <v-col cols="12" sm="12" md="6" >  
-        <h1>Hello there!</h1>
-        <p>I'm Karin Kohlmetz, a passionate and fun-loving Multimedia Designer and digital artist.</p>
+
+        <v-col class="img" cols="12" sm="12" md="6" >
+        <img src="@/assets/PlaceHolderPickles.png" alt="placeholder">
         </v-col>
       </v-row>  
     </v-container>  
@@ -50,6 +54,21 @@
 
 <style lang="scss" scoped>
 
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text div p{
+  width: 70%;
+}
 .wrapper {
   width: calc(100% - 70px * 2);
   height: 80vh;
