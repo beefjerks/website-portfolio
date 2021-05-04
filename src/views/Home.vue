@@ -1,12 +1,12 @@
 <template>
   <div class="wrapper">
-    <v-container>
-      <v-row>
-        <v-col cols="12" sm="12" md="6" >
-          <img src="@/assets/picklemen.png" alt="">
+    <v-container fluid ma-0 pa-0 fill-height>
+      <v-row >
+        <v-col class="img" cols="12" sm="12" md="6" >
+          <img src="@/assets/PlaceHolderPickles.png" alt="">
         </v-col>
 
-        <v-col cols="12" sm="12" md="6" >
+        <v-col  class="text" cols="12" sm="12" md="6"  >
           <h1>Karin Kohlmetz</h1>
         </v-col>
       </v-row>
@@ -19,6 +19,18 @@
 
 <style lang="scss" scoped>
 
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .wrapper {
   width: calc(100% - 70px * 2);
   height: 80vh;
@@ -26,6 +38,8 @@
   margin: 70px;
   display: flex;
 }
+
+
 
 /* .wrapper .img-container {
   width: 50%;
