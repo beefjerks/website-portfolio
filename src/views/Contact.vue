@@ -30,10 +30,13 @@
   
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 960px){
 .wrapper {
-  margin: 30px
+  margin: 30px;
+  height: auto;
+
 }
+
 }
 
 

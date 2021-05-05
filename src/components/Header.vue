@@ -7,6 +7,8 @@
 
   </v-toolbar>
   
+  
+  
 </template>
 
 
@@ -18,8 +20,14 @@
   justify-content: center;
   font-family: filson-pro, sans-serif;
 
-
 }
+
+
+
+
+
+
+
 
 
 </style>
