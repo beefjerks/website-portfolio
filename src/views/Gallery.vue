@@ -32,7 +32,15 @@
                     Signup Application
                   </v-toolbar>
                   <v-card-text>
-                    <div class="text-h2 pa-12">Hello world!</div>
+                      <v-row class="pa-4">
+                        <v-col >
+                          <img src="@/assets/Signup2.png">
+                        </v-col>
+                      
+                      <v-col>
+                          <img src="@/assets/Signup3.png">
+                          </v-col>
+                      </v-row>
                   </v-card-text>
                   <v-card-actions class="justify-end">
                     <v-btn text @click="dialog.value = false">
@@ -52,7 +60,7 @@
 
       <v-col  cols="12" md="4" class="product">
         <v-card class="pa-4">
-                <v-img src="@/assets/Sign-upDesign.png" height="auto"></v-img>
+                <v-img src="@/assets/Slideshow_2.png" height="auto"></v-img>
                   <v-card-title class="justify-center">
                     OceanEye Website 
                   </v-card-title>
@@ -72,8 +80,28 @@
                   <v-toolbar color="thirdiary" dark>
                     OceanEye Concept Graphics
                   </v-toolbar>
-                  <v-card-text>
-                    <div class="text-h2 pa-12">Hello world!</div>
+                 <v-card-text>
+                      <v-row class="pa-4">
+                        <v-col >
+                          <img src="@/assets/Slideshow_1.png">
+                        </v-col>
+                      
+                      <v-col>
+                          <img src="@/assets/Slideshow_2.png">
+                          </v-col>
+
+                          <v-col>
+                          <img src="@/assets/Slideshow_3.png">
+                          </v-col>
+
+                          <v-col>
+                          <img src="@/assets/Slideshow_4.png">
+                          </v-col>
+
+                          <v-col>
+                          <img src="@/assets/Slideshow_5.png">
+                          </v-col>
+                      </v-row>
                   </v-card-text>
                   <v-card-actions class="justify-end">
                     <v-btn text @click="dialog.value = false">
@@ -90,7 +118,7 @@
 
       <v-col  cols="12" md="4" class="product">
         <v-card class="pa-4">
-            <v-img src="@/assets/Sign-upDesign.png" height="auto"></v-img>
+            <v-img src="@/assets/MuseumAppIcon.png" height="auto"></v-img>
               <v-card-title class="justify-center">
                 Art Nouveau
               </v-card-title>
@@ -111,7 +139,19 @@
                     Art Nouveau
                   </v-toolbar>
                   <v-card-text>
-                    <div class="text-h2 pa-12">Hello world!</div>
+                      <v-row class="pa-4">
+                        <v-col>
+                          <img src="@/assets/ArtN1.png" width="150%">
+                        </v-col>
+                      
+                      <v-col>
+                          <img src="@/assets/ArtN2.png" width="150%">
+                          </v-col>
+
+                          <v-col>
+                          <img src="@/assets/ArtN3 (1).png" width="150%">
+                          </v-col>
+                      </v-row>
                   </v-card-text>
                   <v-card-actions class="justify-end">
                     <v-btn text @click="dialog.value = false">
@@ -128,7 +168,7 @@
 
       <v-col  cols="12" md="4" class="product">
             <v-card class="pa-4">
-            <v-img src="@/assets/Sign-upDesign.png" height="auto"></v-img>
+            <v-img src="@/assets/greenrabbit.png" height="auto"></v-img>
               <v-card-title class="justify-center">
                 Green Rabbits 
               </v-card-title>
@@ -149,7 +189,19 @@
                     Green Rabbits
                   </v-toolbar>
                   <v-card-text>
-                    <div class="text-h2 pa-12">Hello world!</div>
+                      <v-row class="pa-4">
+                        <v-col>
+                          <img src="@/assets/greenrabbit.png" width="150%">
+                        </v-col>
+                      
+                      <v-col>
+                          <img src="@/assets/greenrabbit2.png" width="150%">
+                          </v-col>
+
+                          <v-col>
+                          <img src="@/assets/greenrabbit3.png" width="150%">
+                          </v-col>
+                      </v-row>
                   </v-card-text>
                   <v-card-actions class="justify-end">
                     <v-btn text @click="dialog.value = false">
@@ -168,7 +220,7 @@
             <v-card class="pa-4">
             <v-img src="@/assets/Sign-upDesign.png" height="auto"></v-img>
               <v-card-title class="justify-center">
-                7-Kanten Project
+                Digital art
               </v-card-title>
           <v-row justify="space-around">
             <v-col cols="auto">
@@ -231,6 +283,10 @@
 
 }
 
+.v-card-text {
+  
+  
+}
 
 
 
@@ -243,7 +299,6 @@ p {
 font-family: "filson-pro";
 }
 
- 
 
 
 
