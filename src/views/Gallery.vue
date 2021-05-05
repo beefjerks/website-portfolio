@@ -1,10 +1,15 @@
 <template>
 <div class="wrapper">
   <v-container >
+    
     <!-- Columns start at 100% wide on mobile and bump up to 33.3% wide on desktop -->
     <v-row>
       <v-col  cols="12" md="4" class="product">
-        <v-card class="pa-4" tile>
+          <v-card class="pa-4">
+            <v-img src="@/assets/Sign-upDesign.png" height="auto"></v-img>
+              <v-card-title class="justify-center">
+                Signup Application 
+              </v-card-title>
 
           <!-- <v-btn elevation="2">
           <p>See project</p>
@@ -24,7 +29,7 @@
               <template v-slot:default="dialog">
                 <v-card>
                   <v-toolbar color="thirdiary" dark>
-                    OceanEye Concept Graphics
+                    Signup Application
                   </v-toolbar>
                   <v-card-text>
                     <div class="text-h2 pa-12">Hello world!</div>
@@ -41,11 +46,16 @@
           </v-row>
         </v-card>
       </v-col>
+       
 
 
 
       <v-col  cols="12" md="4" class="product">
-        <v-card class="pa-4" tile>
+        <v-card class="pa-4">
+                <v-img src="@/assets/Sign-upDesign.png" height="auto"></v-img>
+                  <v-card-title class="justify-center">
+                    OceanEye Website 
+                  </v-card-title>
           <v-row justify="space-around">
             <v-col cols="auto">
             <v-dialog
@@ -79,7 +89,11 @@
       </v-col>
 
       <v-col  cols="12" md="4" class="product">
-        <v-card class="pa-4" tile>
+        <v-card class="pa-4">
+            <v-img src="@/assets/Sign-upDesign.png" height="auto"></v-img>
+              <v-card-title class="justify-center">
+                Art Nouveau
+              </v-card-title>
           <v-row justify="space-around">
             <v-col cols="auto">
             <v-dialog
@@ -94,7 +108,7 @@
               <template v-slot:default="dialog">
                 <v-card>
                   <v-toolbar color="thirdiary" dark>
-                    OceanEye Concept Graphics
+                    Art Nouveau
                   </v-toolbar>
                   <v-card-text>
                     <div class="text-h2 pa-12">Hello world!</div>
@@ -113,7 +127,11 @@
       </v-col>
 
       <v-col  cols="12" md="4" class="product">
-        <v-card class="pa-4" tile>
+            <v-card class="pa-4">
+            <v-img src="@/assets/Sign-upDesign.png" height="auto"></v-img>
+              <v-card-title class="justify-center">
+                Green Rabbits 
+              </v-card-title>
           <v-row justify="space-around">
             <v-col cols="auto">
             <v-dialog
@@ -128,7 +146,7 @@
               <template v-slot:default="dialog">
                 <v-card>
                   <v-toolbar color="thirdiary" dark>
-                    OceanEye Concept Graphics
+                    Green Rabbits
                   </v-toolbar>
                   <v-card-text>
                     <div class="text-h2 pa-12">Hello world!</div>
@@ -147,7 +165,11 @@
       </v-col>
 
       <v-col  cols="12" md="4" class="product">
-        <v-card class="pa-4" tile>
+            <v-card class="pa-4">
+            <v-img src="@/assets/Sign-upDesign.png" height="auto"></v-img>
+              <v-card-title class="justify-center">
+                7-Kanten Project
+              </v-card-title>
           <v-row justify="space-around">
             <v-col cols="auto">
             <v-dialog
@@ -162,7 +184,7 @@
               <template v-slot:default="dialog">
                 <v-card>
                   <v-toolbar color="thirdiary" dark>
-                    OceanEye Concept Graphics
+                    7-Kanten Project
                   </v-toolbar>
                   <v-card-text>
                     <div class="text-h2 pa-12">Hello world!</div>
@@ -197,7 +219,6 @@
 .wrapper {
   --margin: 5%;
   width: calc(100% - var(--margin) * 2);
-  height: 80vh;
   background-color: var(--v-secondary-base);
   margin: var(--margin);
   display: flex; 
@@ -210,28 +231,19 @@
 
 }
 
+
+
+
 p {
   text-transform: none;
   margin: 0;
 }
 
+.pa-4  {
+font-family: "filson-pro";
+}
 
-.product{
-  &:nth-of-type(2){
-    .pa-4{
-      background-image: url("../assets/Sign-upDesign.png");
-      background-size: cover;
-  
-    }
-    
-  }
-  .pa-4 {
-    display: flex;
-    justify-content: center;
-  }
-} 
-
-
+ 
 
 
 
