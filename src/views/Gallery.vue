@@ -8,31 +8,51 @@
     <v-row>
       <v-col  cols="12" md="4" >
         <v-card class="pa-4" tile>
-          project
+          
+          <v-btn elevation="2">
+            <p>See project</p>
+          </v-btn>
+
         </v-card>
       </v-col>
       
       <v-col  cols="12" md="4" >
         <v-card class="pa-4" tile>
-          project
+          
+          <v-btn elevation="2">
+            <p>See project</p>
+          </v-btn>
+
         </v-card>
       </v-col>
 
       <v-col  cols="12" md="4" >
         <v-card class="pa-4" tile>
-          project
+          
+          <v-btn elevation="2">
+            <p>See project</p>
+          </v-btn>
+
         </v-card>
       </v-col>
 
       <v-col  cols="12" md="4" >
         <v-card class="pa-4" tile>
-          project
+          
+          <v-btn elevation="2">
+            <p>See project</p>
+          </v-btn>
+
         </v-card>
       </v-col>
 
       <v-col  cols="12" md="4" >
         <v-card class="pa-4" tile>
-          project
+          
+          <v-btn elevation="2">
+            <p>See project</p>
+          </v-btn>
+
         </v-card>
       </v-col>
     </v-row>
@@ -59,8 +79,7 @@
   height: 80vh;
   background-color: var(--v-secondary-base);
   margin: var(--margin);
-  display: flex;
-  
+  display: flex; 
 }
 
 @media screen and (max-width: 600px){
@@ -69,6 +88,15 @@
 }
 
 }
+
+p {
+  text-transform: none;
+  margin: 0;
+}
+
+
+
+
 
 
 </style>
