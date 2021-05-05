@@ -1,5 +1,6 @@
 <template>
   <v-app id="app">
+    
  <v-content>
     
     <Header/>
@@ -19,7 +20,9 @@
 
 <style lang="scss">
 #app {
-    background-color: var(--v-primary-base);
+  background-color: var(--v-primary-base); 
+  
+ 
 }
 
 h1, h2, h3, h4, h5, h6 {

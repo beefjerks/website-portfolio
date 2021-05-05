@@ -46,11 +46,28 @@
 
 <style lang="scss" scoped>
 
-.wrapper {
+/* .wrapper {
   height: 80vh;
   background-color: var(--v-secondary-base);
   margin: 70px;
   
+} */
+
+.wrapper {
+  --margin: 5%;
+  width: calc(100% - var(--margin) * 2);
+  height: 80vh;
+  background-color: var(--v-secondary-base);
+  margin: var(--margin);
+  display: flex;
+  
+}
+
+@media screen and (max-width: 600px){
+.wrapper {
+  margin: 30px
+}
+
 }
 
 

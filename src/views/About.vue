@@ -64,17 +64,41 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  div{
+    display: inline-block;
+    max-width: 300px;
+  }
 }
 
-.text div p{
+/* .text div p{
   width: 70%;
-}
-.wrapper {
+  margin: 0;
+} */
+
+/* .wrapper {
   width: calc(100% - 70px * 2);
   height: 80vh;
   background-color: var(--v-secondary-base);
   margin: 70px;
   display: flex;
+} */
+
+.wrapper {
+  --margin: 5%;
+  width: calc(100% - var(--margin) * 2);
+  height: 80vh;
+  background-color: var(--v-secondary-base);
+  margin: var(--margin);
+  display: flex;
+  
+  
+}
+
+@media screen and (max-width: 600px){
+.wrapper {
+  margin: 30px
+}
+
 }
 
 /* section > div {
