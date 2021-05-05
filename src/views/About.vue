@@ -22,13 +22,12 @@
       <v-row>
         <v-col class="text" cols="12" sm="12" md="6" >  
           <div>
-            <h1>Hello there!</h1>
-            <p>I'm Karin Kohlmetz, a passionate and fun-loving Multimedia Designer and digital artist.</p>
+            <p>If you're interested in putting a voice to the face and website, check out my video resume! </p>
         </div>
         </v-col>
 
         <v-col class="img" cols="12" sm="12" md="6" >
-        <img src="@/assets/PlaceHolderPickles.png" alt="placeholder">
+        <iframe width="580" height="480" src="https://www.youtube.com/embed/j3-Uzfg_xO8?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </v-col>
       </v-row>  
     </v-container>  
