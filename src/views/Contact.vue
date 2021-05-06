@@ -3,12 +3,29 @@
     <v-container fluid ma-0 pa-0 fill-height>
       <v-row>
         <v-col class="text" cols="12" sm="12" md="6" >
+    
+   <div>
         <h1>Contact me</h1>
-          <div class="icons">
-            <img src="@/assets/custom icons-03.png">
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-linkedin-in"></i> 
           </div>
+          <div class="icons">
+            <a href="mailto:karinkohlmetz98@hotmail.com">
+              <img src="@/assets/custom icons-03.png">
+              <p> karinkohlmetz98@hotmail.com </p>
+                 </a> 
+
+            <a target="_blanc" href="https://www.linkedin.com/in/karin-kohlmetz-a59948205/">
+              <img src="@/assets/custom icons-01.png">
+              <p>Karin Kohlmetz</p>
+            </a>
+
+            <a target="_blanc" href="https://www.instagram.com/beef.jerks/">
+              <img src="@/assets/custom icons-02.png">
+              <p>@beef.jerks</p>
+            </a>
+
+          </div> 
+          
+          
         </v-col>
 
 
@@ -56,6 +73,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .icons {
@@ -63,6 +81,7 @@
   flex-direction: column;
   width: 200px;
   font-size: 100px;
+  
 }
 
 .icons img {
@@ -99,7 +118,9 @@ section .contact {
 
 <script>
     export default {
-        
-    }
+    data: () => ({
+    
+    })
+  }
 </script>
 

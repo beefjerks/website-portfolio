@@ -5,12 +5,13 @@
     <!-- Columns start at 100% wide on mobile and bump up to 33.3% wide on desktop -->
     <v-row>
       <v-col  cols="12" md="4" class="product">
-          <v-card class="pa-4">
+        
+          <v-card class="pa-4" >
             <v-img src="@/assets/Sign-upDesign.png" height="auto"></v-img>
               <v-card-title class="justify-center">
                 Signup Application 
               </v-card-title>
-
+            
               <!-- <v-btn elevation="2">
               <p>See project</p>
               </v-btn> -->  
@@ -330,6 +331,7 @@
   margin: var(--margin);
   display: flex;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  
 }
 
 @media screen and (max-width: 600px){
