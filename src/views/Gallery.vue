@@ -11,9 +11,9 @@
                 Signup Application 
               </v-card-title>
 
-          <!-- <v-btn elevation="2">
-          <p>See project</p>
-          </v-btn> -->  
+              <!-- <v-btn elevation="2">
+              <p>See project</p>
+              </v-btn> -->  
 
           <v-row justify="space-around">
             <v-col cols="auto">
@@ -59,7 +59,7 @@
 
 
       <v-col  cols="12" md="4" class="product">
-        <v-card class="pa-4">
+        <v-card class="pa-4" >
                 <v-img src="@/assets/Slideshow_2.png" height="auto"></v-img>
                   <v-card-title class="justify-center">
                     OceanEye Website 
@@ -282,8 +282,6 @@
 }
 
 }
-
-
 
 p {
   text-transform: none;

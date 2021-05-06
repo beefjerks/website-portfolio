@@ -20,9 +20,10 @@
 
 <style lang="scss">
 #app {
-  background-color: var(--v-primary-base); 
-  
- 
+  background: url('./assets/Home.png'), var(--v-primary-base); 
+  background-size: 100% 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -4,6 +4,11 @@
       <v-row>
         <v-col class="text" cols="12" sm="12" md="6" >
         <h1>Contact me</h1>
+          <div class="icons">
+            <img src="@/assets/custom icons-03.png">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i> 
+          </div>
         </v-col>
 
 
@@ -39,12 +44,11 @@
 
 }
 
-
-
 .img {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .text{
@@ -52,6 +56,19 @@
   justify-content: center;
   align-items: center;
 }
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  font-size: 100px;
+}
+
+.icons img {
+  width: 1em;
+  
+}
+
 
 /* .wrapper .img-container {
   width: 50%;
