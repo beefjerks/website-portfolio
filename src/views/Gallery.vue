@@ -31,9 +31,9 @@
                   <v-toolbar color="thirdiary" dark>
                     Signup Application
                   </v-toolbar>
-                  <v-card-text>
+                  <v-card-text class="Signup">
                       <v-row class="pa-4">
-                        <v-col >
+                        <v-col cols="12" md="6">
                           <img src="@/assets/Signup2.png">
                         </v-col>
                       
@@ -138,7 +138,7 @@
                   <v-toolbar color="thirdiary" dark>
                     Art Nouveau
                   </v-toolbar>
-                  <v-card-text>
+                  <v-card-text class="artN">
                       <v-row class="pa-4">
                         <v-col>
                           <img src="@/assets/ArtN1.png" width="150%">
@@ -188,18 +188,18 @@
                   <v-toolbar color="thirdiary" dark>
                     Green Rabbits
                   </v-toolbar>
-                  <v-card-text>
-                      <v-row class="pa-4">
-                        <v-col>
-                          <img src="@/assets/greenrabbit.png" width="150%">
-                        </v-col>
+                  <v-card-text >
+                      <v-row >
+                          <v-col cols="12">
+                            <img class="greenrabbitimg1" src="@/assets/greenrabbit1.png" >
+                          </v-col>
                       
-                      <v-col>
-                          <img src="@/assets/greenrabbit2.png" width="150%">
+                          <v-col cols="12">
+                            <img class="greenrabbitimg2" src="@/assets/greenrabbit2.png">
                           </v-col>
 
-                          <v-col>
-                          <img src="@/assets/greenrabbit3.png" width="150%">
+                          <v-col cols="12">
+                            <img class="greenrabbitimg3" src="@/assets/greenrabbit3.png">
                           </v-col>
                       </v-row>
                   </v-card-text>
@@ -290,6 +290,39 @@ p {
 
 .pa-4  {
 font-family: "filson-pro";
+}
+
+.artN {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.signup {
+  display: flex;
+  
+}
+
+.greenrabbitimgs {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+}
+
+.greenrabbitimg1 {
+  width: 100%;
+  
+}
+
+.greenrabbitimg2 {
+  width: 100%;
+
+}
+
+.greenrabbitimg3 {
+  width: 100%;
+
+   
 }
 
 
