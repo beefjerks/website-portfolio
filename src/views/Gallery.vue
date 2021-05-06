@@ -118,7 +118,7 @@
             <v-card class="pa-4">
             <v-img src="@/assets/onlyLogo.png" height="auto"></v-img>
               <v-card-title class="justify-center">
-                Digital art
+                OceanEye Project 
               </v-card-title>
           <v-row justify="space-around">
             <v-col cols="auto">
@@ -134,7 +134,7 @@
               <template v-slot:default="dialog">
                 <v-card>
                   <v-toolbar color="thirdiary" dark>
-                    7-Kanten Project
+                    OceanEye Project
                   </v-toolbar>
                   <v-card-text>
                       <v-row class="pa-4">

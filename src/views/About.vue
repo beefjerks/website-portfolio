@@ -2,9 +2,9 @@
 <div>
   <div class="wrapper">
     <v-container fluid ma-0 pa-0 fill-height>
-      <v-row>
+      <v-row >
         <v-col class="img" cols="12" sm="12" md="6" >
-        <img src="@/assets/PlaceHolderPickles.png" alt="placeholder">
+        <v-img src="@/assets/KarinKohlmetz1.png" alt="placeholder"></v-img>
         </v-col>
       
         <v-col class="text" cols="12" sm="12" md="6" > 

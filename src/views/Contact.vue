@@ -3,10 +3,9 @@
     <v-container fluid ma-0 pa-0 fill-height>
       <v-row>
         <v-col class="text" cols="12" sm="12" md="6" >
-    
-   <div>
+          
         <h1>Contact me</h1>
-          </div>
+        
           <div class="icons">
             <a href="mailto:karinkohlmetz98@hotmail.com">
               <img src="@/assets/custom icons-03.png">
@@ -27,12 +26,6 @@
           
           
         </v-col>
-
-
-        <v-col class="img" cols="12" sm="12" md="6" >
-        <img src="@/assets/PlaceHolderPickles.png" alt="placeholder">
-        </v-col>
-
         
       </v-row>
     </v-container>
@@ -41,6 +34,7 @@
 </template>
 
 <style lang="scss" scoped>
+
 
 .wrapper {
   --margin: 5%;
@@ -60,6 +54,7 @@
 
 }
 
+
 }
 
 .img {
@@ -69,12 +64,7 @@
   
 }
 
-.text{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
+
 
 .icons {
   display: flex;

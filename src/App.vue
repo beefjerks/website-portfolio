@@ -38,6 +38,7 @@ h1 {
 p {
   font-family: 'filson-pro';
   font-size: 20px;
+  color: black;
 }
 
 

@@ -2,8 +2,12 @@
   <div class="wrapper">
     <v-container fluid ma-0 pa-0 fill-height>
       <v-row >
-        <v-col class="img" cols="12" sm="12" md="6" >
-          <img src="@/assets/PlaceHolderPickles.png" alt="">
+        <v-col class="img" cols="12" sm="12" md="6">
+          <v-img
+           
+            src="@/assets/KarinKohlmetz.png"
+          ></v-img>
+         <!-- <img src="@/assets/KarinKohlmetz.png" alt="" > -->
         </v-col>
 
         <v-col  class="text" cols="12" sm="12" md="6"  >
@@ -21,16 +25,23 @@
 
 
 
-.img {
+.v-img {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
+  
+  
+  
+  
 }
 
 .text{
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .wrapper {
