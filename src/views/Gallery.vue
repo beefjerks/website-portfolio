@@ -273,7 +273,8 @@
   width: calc(100% - var(--margin) * 2);
   background-color: var(--v-secondary-base);
   margin: var(--margin);
-  display: flex; 
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 @media screen and (max-width: 600px){
