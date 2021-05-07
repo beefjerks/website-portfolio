@@ -1,12 +1,8 @@
 <template>
-  <div class="wrapper">
-    <v-container fluid ma-0 pa-0 fill-height>
-      <v-row>
-        <v-col class="text" cols="12" sm="12" md="6" >
-          
-        <h1>Contact me</h1>
+  <div class="wrapper" >
+    
         
-          <div class="icons">
+          <!-- <div class="icons">
             <a href="mailto:karinkohlmetz98@hotmail.com">
               <img src="@/assets/custom icons-03.png">
               <p> karinkohlmetz98@hotmail.com </p>
@@ -23,13 +19,72 @@
             </a>
 
           </div> 
-          
-          
-        </v-col>
+           -->
+             <v-row class="list">
+               <v-col cols="12" sm="12">
+
         
-      </v-row>
-    </v-container>
-  </div>
+          <v-list-item justify="center">
+            <v-list-item-action>
+              <a href="mailto:karinkohlmetz98@hotmail.com">
+              <img src="@/assets/custom icons-03.png">
+                 </a>
+            </v-list-item-action>
+
+            <v-list-item-content>
+                <a href="mailto:karinkohlmetz98@hotmail.com">
+                <p> karinkohlmetz98@hotmail.com </p>
+                </a>
+            </v-list-item-content>
+          </v-list-item>
+
+
+          <v-list-item >
+            <v-list-item-action>
+              <a target="_blanc" href="https://www.linkedin.com/in/karin-kohlmetz-a59948205/">
+              <img src="@/assets/custom icons-01.png">
+            </a>
+            </v-list-item-action>
+
+            <v-list-item-content >
+                <a target="_blanc" href="https://www.linkedin.com/in/karin-kohlmetz-a59948205/">
+                <p>Karin Kohlmetz</p>
+                </a>
+            </v-list-item-content>
+          </v-list-item>
+
+
+          <v-list-item>
+            <v-list-item-action>
+              <a target="_blanc" href="https://www.instagram.com/beef.jerks/">
+              <img src="@/assets/custom icons-02.png">
+            </a>
+            </v-list-item-action>
+
+            <v-list-item-content>
+                <a target="_blanc" href="https://www.instagram.com/beef.jerks/">
+                <p>@beef.jerks</p>
+                </a>
+            </v-list-item-content>
+          </v-list-item>
+
+          
+
+          
+
+        
+
+       
+      
+    </v-col>
+  </v-row>
+
+  </div> 
+
+
+
+
+  
   
 </template>
 
@@ -38,46 +93,22 @@
 
 .wrapper {
   --margin: 5%;
-  width: calc(100% - var(--margin) * 2);
   height: 80vh;
   background-color: var(--v-secondary-base);
   margin: var(--margin);
   display: flex;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-  
-}
 
-@media screen and (max-width: 960px){
-.wrapper {
-  margin: 30px;
-  height: auto;
-
-}
-
-
-}
-
-.img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   
 }
 
 
 
-.icons {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  font-size: 100px;
+img {
+  width: 8em;
   
 }
 
-.icons img {
-  width: 1em;
-  
-}
 
 
 /* .wrapper .img-container {
@@ -107,10 +138,14 @@ section .contact {
 </style>
 
 <script>
-    export default {
+  export default {
     data: () => ({
+     
+
+        
+        
     
-    })
+    }),
   }
 </script>
 
