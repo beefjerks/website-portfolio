@@ -11,7 +11,7 @@
         </v-col>
 
           <v-col class="img" cols="12" sm="12" md="6" >
-            <v-img src="@/assets/KarinKohlmetz1.png" alt="placeholder"></v-img>
+            <v-img src="@/assets/KarinKohlmetz3.png" alt="placeholder"></v-img>
             </v-col>
 
       </v-row>  

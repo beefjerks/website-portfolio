@@ -1,16 +1,13 @@
 <template>
   <div class="wrapper">
-    <v-container fluid ma-0 pa-0 fill-height>
-      <v-row >
-        <v-col class="img" cols="12" sm="12" md="6">
-          <v-img
-           
-            src="@/assets/KarinKohlmetz.png"
-          ></v-img>
-         <!-- <img src="@/assets/KarinKohlmetz.png" alt="" > -->
-        </v-col>
+    <v-container fluid ma-0 pa-0 home fill-height>
+      <v-row  >
+        <v-col class="img" cols="12" sm="12" md="6" >
+            <v-img src="@/assets/KarinKohlmetz2.png" alt="placeholder"></v-img>
+            </v-col>
 
-        <v-col  class="text" cols="12" sm="12" md="6"  >
+
+        <v-col  class="text"  >
           <h1>Karin Kohlmetz</h1>
         </v-col>
       </v-row>
@@ -30,6 +27,7 @@
   justify-content: center;
   align-items: center;
   
+ 
   
 }
 
@@ -39,6 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
  
 }
 
@@ -50,7 +49,7 @@
   margin: var(--margin);
   display: flex;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-  
+   
 }
 
 @media screen and (max-width: 960px){
