@@ -356,9 +356,7 @@ font-family: "filson-pro";
    
 }
 
-.v-responsive__sizer{
-  padding-bottom: 100% !important /* <- very */;
-}
+
 
 
 
@@ -370,18 +368,9 @@ font-family: "filson-pro";
     data: () => ({
       
     }),
-    methods: {
-
-    },
-    mounted() {
-      function thisNeedsToStop ()  {
-        const shitFuck = document.querySelectorAll('.pa-4 > div > div')
-        console.log(shitFuck)
-      }
-
-      thisNeedsToStop()
+    
     }
       
-  }
+  
 </script>
 

@@ -27,7 +27,13 @@
 
          <v-col class="text" cols="12" sm="12" md="6" >  
           <div>
-            <p>If you're interested in putting a voice to the face and website, check out my video resume! </p>
+            <p>If you're interested in putting a voice to the face and website, check out my video resume!</p>
+              <br>
+              <p>Or download my CV by clicking the pencil below.</p>
+                <a href="@/assets/KainCV.pdf" download>
+                  <img class="pencil" src="@/assets/pencil-04.png" width="40%">
+                </a> 
+                
         </div>
         </v-col>
       </v-row>  
@@ -68,6 +74,10 @@
     display: inline-block;
     max-width: 300px;
   }
+}
+
+.pencil {
+  display: flex;
 }
 
 /* .text div p{
